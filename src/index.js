@@ -1,7 +1,6 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-// import App from './App'
-import Login from './login/Login'
-// import './index.css' // For login form from Tania Rascia
+import Dashboard from './Dashboard/Dashboard.js'
+// import Login from './login/Login'
 
-ReactDOM.render(<Login />, document.getElementById('root'))
+ReactDOM.render(<Dashboard />, document.getElementById('root'))
